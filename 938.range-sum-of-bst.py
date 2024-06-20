@@ -13,17 +13,19 @@
 #         self.right = right
 class Solution(object):
     def rangeSumBST(self, root, low, high):
-        return self.helper(root, low, high, 0)
+        return self.helper(root, low, high)
 
-    def helper(self, current_node, low, high, total):
+    def helper(self, current_node, low, high):
         if current_node is None:
             return 0
+
+        total = 0
 
         if current_node.val >= low and current_node.val <= high:
             total += current_node.val
 
-        self.helper(current_node.left, low, high, total + current_node.val)
-        self.helper(current_node.right, low, high, total + current_node.val)
+        total += self.helper(current_node.left, low, high)
+        total += self.helper(current_node.right, low, high)
 
         return total
     # O(n) T, O(n) S
