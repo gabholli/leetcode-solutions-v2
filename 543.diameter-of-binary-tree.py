@@ -1,7 +1,7 @@
 #
-# @lc app=leetcode id=100 lang=python
+# @lc app=leetcode id=543 lang=python
 #
-# [100] Same Tree
+# [543] Diameter of Binary Tree
 #
 
 # @lc code=start
@@ -12,6 +12,6 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    def isSameTree(self, p, q):
+    def diameterOfBinaryTree(self, root):
 
         # @lc code=end

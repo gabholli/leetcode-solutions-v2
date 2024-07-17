@@ -1,7 +1,7 @@
 #
-# @lc app=leetcode id=100 lang=python
+# @lc app=leetcode id=1315 lang=python
 #
-# [100] Same Tree
+# [1315] Sum of Nodes with Even-Valued Grandparent
 #
 
 # @lc code=start
@@ -11,7 +11,11 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+from collections import deque
+
+
 class Solution(object):
-    def isSameTree(self, p, q):
+    def sumEvenGrandparent(self, root):
 
         # @lc code=end

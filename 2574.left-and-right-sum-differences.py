@@ -8,6 +8,4 @@
 class Solution(object):
     def leftRightDifference(self, nums):
 
-        # O(n) T, O(n) S
-
         # @lc code=end

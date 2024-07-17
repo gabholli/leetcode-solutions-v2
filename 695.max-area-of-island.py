@@ -8,5 +8,4 @@
 class Solution(object):
     def maxAreaOfIsland(self, grid):
 
-        # O(mn) T, O(mn) S
         # @lc code=end

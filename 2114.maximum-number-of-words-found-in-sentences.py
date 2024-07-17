@@ -7,8 +7,5 @@
 # @lc code=start
 class Solution(object):
     def mostWordsFound(self, sentences):
-        max_words = {}
 
-        for se
-
-# @lc code=end
+        # @lc code=end
