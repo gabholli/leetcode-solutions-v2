@@ -5,7 +5,7 @@
 #
 
 # @lc code=start
-import collections
+from collections import defaultdict
 
 
 class Solution(object):

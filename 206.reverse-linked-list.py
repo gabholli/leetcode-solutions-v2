@@ -12,16 +12,5 @@
 #         self.next = next
 class Solution(object):
     def reverseList(self, head):
-        prev = None
 
-        while head:
-            temp = head.next
-            head.next = prev
-            prev = head
-            head = temp
-
-        return prev
-
-    # O(n) T, O(1) S
-
-# @lc code=end
+        # @lc code=end

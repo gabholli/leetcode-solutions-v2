@@ -7,8 +7,5 @@
 # @lc code=start
 class Solution(object):
     def sum(self, num1, num2):
-        return num1 + num2
 
-    # O(1) T, O(1) S
-
-# @lc code=end
+        # @lc code=end

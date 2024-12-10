@@ -8,5 +8,4 @@
 class Solution(object):
     def subsetXORSum(self, nums):
 
-        # O(n * 2^n) T, O(n * 2^n) S
         # @lc code=end

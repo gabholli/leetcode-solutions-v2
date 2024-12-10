@@ -7,14 +7,5 @@
 # @lc code=start
 class Solution(object):
     def numberOfEmployeesWhoMetTarget(self, hours, target):
-        total = 0
-        for hour in hours:
-            if hour >= target:
-                total += 1
 
-        return total
-
-    # O(n) T, O(1) S
-
-
-# @lc code=end
+        # @lc code=end

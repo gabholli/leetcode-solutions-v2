@@ -13,7 +13,5 @@
 #         self.right = right
 class Solution(object):
     def checkTree(self, root):
-        return root.val == root.left.val + root.right.val
 
-    # O(1) T, O(1) S
-# @lc code=end
+        # @lc code=end

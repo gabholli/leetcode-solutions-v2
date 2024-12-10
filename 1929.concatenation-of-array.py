@@ -7,6 +7,5 @@
 # @lc code=start
 class Solution(object):
     def getConcatenation(self, nums):
-        return nums * 2
 
-# @lc code=end
+        # @lc code=end

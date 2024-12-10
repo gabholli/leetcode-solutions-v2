@@ -7,11 +7,5 @@
 # @lc code=start
 class Solution(object):
     def smallestEqual(self, nums):
-        for i in range(len(nums)):
-            if i % 10 == nums[i]:
-                return i
 
-        return -1
-
-    # O(n) T, O(1) S
-# @lc code=end
+        # @lc code=end

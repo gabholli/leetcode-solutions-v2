@@ -7,8 +7,5 @@
 # @lc code=start
 class Solution(object):
     def defangIPaddr(self, address):
-        return address.replace('.', "[.]")
 
-    # O(n) T, O(1) S
-
-# @lc code=end
+        # @lc code=end

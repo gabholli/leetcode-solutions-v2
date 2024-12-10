@@ -13,16 +13,5 @@
 #         self.right = right
 class Solution(object):
     def postorderTraversal(self, root):
-        return self.helper(root, [])
 
-    def helper(self, node, array):
-        if node:
-            self.helper(node.left, array)
-            self.helper(node.right, array)
-            array.append(node.val)
-
-        return array
-
-    # O(n) T, O(n) S
-
-# @lc code=end
+        # @lc code=end
